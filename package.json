@@ -1,0 +1,16 @@
+{
+  "name": "dev-template-typescript",
+  "version": "1.0.0",
+  "scripts": {
+    "watch": "ttsc --watch",
+    "build": "ttsc",
+    "start": "devrun --watch ./dist --inspect 9229 --program ./dist/exemple"
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.17",
+    "scripts": "./scripts",
+    "ttypescript": "^1.5.13",
+    "typescript": "^4.5.5",
+    "typescript-transform-paths": "^3.3.1"
+  }
+}
