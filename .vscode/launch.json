@@ -1,0 +1,12 @@
+{
+   "version": "0.2.0",
+   "configurations": [
+      {
+         "name": "DevServer",
+         "port": 9229,
+         "request": "attach",
+         "continueOnAttach": true,
+         "type": "node"
+      },
+   ]
+}
